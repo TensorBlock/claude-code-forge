@@ -29,7 +29,8 @@ This repository provides startup scripts that configure Claude Code to use Tenso
 ### 1. Get your API key
 1. Visit [TensorBlock Forge](https://forge.tensorblock.co)
 2. Sign up for an account
-3. Generate an API key from your dashboard
+3. Add your model provider API keys
+4. Generate a Forge key from your dashboard
 
 ### 2. Configure the script
 
@@ -37,12 +38,12 @@ Edit the appropriate script for your platform and replace `YOUR_TENSORBLOCK_FORG
 
 **For Linux/Mac** (`start_claude_code.sh`):
 ```bash
-export ANTHROPIC_AUTH_TOKEN=your_actual_api_key_here
+export ANTHROPIC_AUTH_TOKEN=your_actual_forge_key_here
 ```
 
 **For Windows** (`start_claude_code.bat`):
 ```batch
-set ANTHROPIC_AUTH_TOKEN=your_actual_api_key_here
+set ANTHROPIC_AUTH_TOKEN=your_actual_forge_key_here
 ```
 
 ### 3. Make the script executable (Linux/Mac only)
