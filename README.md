@@ -9,6 +9,7 @@
 [![🤗 Hugging Face](https://img.shields.io/badge/HuggingFace-TensorBlock-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/tensorblock)
 [![Telegram](https://img.shields.io/badge/Telegram-Group-blue?logo=telegram)](https://t.me/TensorBlock)
 
+[English](README.md) | [简体中文](README-zh_CN.md) | [日本語](README-ja.md) | [한국어](README-ko.md)
 
 A simple setup utility to use [TensorBlock Forge](https://forge.tensorblock.co) with Claude Code, enabling you to access any supported model through Claude's interface.
 
